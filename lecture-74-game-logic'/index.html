@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number game</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="bg-black">
+    
+    <div class="container">
+        <div class="row pt-3">
+            <div class="col-md-12">
+                <div class="d-flex justify-content-between">
+                    <button class="btn btn-light again py-3 px-5">Again !</button>
+                    <p class="fw-bold text-white">Between 1 & 20</p>
+                </div>
+
+                <h1 class="display-1 fw-bold text-center pt-md-3 text-white">Guess My Number !</h1>
+                <div class="box-for-secret-number mx-auto mt-5 text-center display-1 d-flex justify-content-center align-items-center fw-bold">
+                    ?
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="d-flex justify-content-between">
+                    <div class="left-div mt-5">
+                        <input type="number" class="guess py-3 display-6"> <br>
+                        <button class="btn btn-light check mt-2 py-3 px-5">Check !</button>
+                    </div>
+                    <div class="right-div">
+                        <p class="message text-white mt-3 pe-3 display-3 fw-bold">Start Guessing !</p>
+                        <p class="score text-white display-6">Score : <span class="score-change"> 20</span></p>
+                        <p class="highscore text-white display-6">HighScore : <span class="highscore-change"> 0</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
